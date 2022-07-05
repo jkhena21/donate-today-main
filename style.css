@@ -6,30 +6,32 @@ body{
 #banner{
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 550px;
     width: 1250px;
 }
 .banner-text{
     color: white;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
 }
 .banner-text h1{
     font-size: 50px;
     font-weight: 700;
+    padding-top: 150px;
 }
 .banner-text p{
     font-size: 15px;
+    color: rgb(152, 245, 214);
+    padding-bottom: 15px;
 }
-.button{
+.banner-btn{
     text-decoration: none;
-    background-image: linear-gradient(orange tomato);
-    padding: 10px 40px;
+    background-color: forestgreen;
     color: white;
-    font-weight: 700;
-    border-radius: 5px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
 }
 
 /*donation style*/
@@ -46,38 +48,63 @@ body{
     font-size: 20px;
     color: #2b2727;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange tomato);
-    padding: 10px 40px;
-    color: green;
-    font-weight: 400;
-    border-radius: 5px;
-}
 #donate-plan{
     text-align: center;
 }
 #donate-plan h4{
     font-size: 40px;
     color: black;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 25px;
 }
 #donate-plan p{
-    font-size: 20px;
+    font-size: 15px;
     color: #2b2727;
 }
-.section-tow{
-    margin-top: 70px;
+.food-shel-edu{
+    margin-top: 5px;
     padding: 50px;
+    display: flex;
 }
 .card1{
-    width: 400px;
-    height: 300px;
-    background-color: rgb(200, 241, 228);
+    width: 350px;
+    height: 250px;
+    background-color: rgb(199, 248, 231);
     border: 1px solid antiquewhite;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*updates style*/
+#updates{
+    text-align: center;
+}
+#updates h4{
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+#updates p{
+    font-size: 15px;
+    color: #2b2727;
+}
+.email-sub{
+    display: flex;
+    width: 200px;
+    padding: 80px 200px;
+    margin: 50px 320px;
+    background-color: rgb(254, 223, 219);
+}
+.button{
+    background-color: forestgreen;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
 }
 
