@@ -2,6 +2,10 @@ body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 /*Banner Style*/
 #banner{
     background-image: url(images/donation13.jpg);
@@ -23,7 +27,8 @@ body{
     font-size: 15px;
     font-weight: 700;
     color: rgb(152, 245, 214);
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .banner-btn{
     text-decoration: none;
@@ -35,7 +40,7 @@ body{
     border-radius: 20px;
 }
 
-/*donation style*/
+/*Amount style*/
 #donation{
     text-align: center;
 }
@@ -43,22 +48,22 @@ body{
     font-size: 40px;
     color: black;
     margin-top: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 #donation p{
-    font-size: 20px;
+    font-size: 15px;
     color: #2b2727;
 }
 .amount{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 40px;
     padding: 20px;
     display: flex;
 }
-.card2{
+.card1{
     width: 80px;
     height: 60px;
-    background-color: antiquewhite;
+    background-color: aliceblue;
     color: gray;
     font-size: 30px;
     font-weight: 400;
@@ -68,13 +73,27 @@ body{
     margin-left: 80px;
     margin-right: 40px;
 }
+.design{
+    background-color: rgb(247, 207, 202);
+    border: 2px solid tomato;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid gray;
+    line-height: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+/*Donation style*/
 #donate-plan{
     text-align: center;
 }
 #donate-plan h4{
     font-size: 40px;
     color: black;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-bottom: 25px;
 }
 #donate-plan p{
@@ -86,7 +105,10 @@ body{
     padding: 50px;
     display: flex;
 }
-.card1{
+.top{
+    margin-top: 20px;
+}
+.card2{
     width: 350px;
     height: 250px;
     background-color: rgb(199, 248, 231);
@@ -96,6 +118,37 @@ body{
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/*Feature style*/
+#feature{
+    text-align: center;
+}
+#feature h4{
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+#feature p{
+    font-size: 15px;
+    color: #2b2727;
+    text-align: left;
+}
+.help{
+    padding: 40px;
+    display: flex;
+}
+.card3{
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.article{
+    background-color: rgb(172, 240, 218);
+    padding: 40px 50px;
+    margin-bottom: 40px;
 }
 
 /*updates style*/
@@ -119,6 +172,9 @@ body{
     margin: 50px 320px;
     background-color: rgb(254, 223, 219);
 }
+.email{
+    line-height: 50px;
+}
 .button{
     background-color: forestgreen;
     color: white;
@@ -127,9 +183,11 @@ body{
     font-weight: 400;
     border-radius: 5px;
 }
+
+/*Footer style*/
 .bg{
     background-color: black;
-    height: 200px;
+    height: 150px;
     margin-top: 100px;
     text-align: center;
 }
@@ -142,5 +200,5 @@ body{
 }
 .bg p{
     color: white;
+    margin-top: 15px;
 }
-
